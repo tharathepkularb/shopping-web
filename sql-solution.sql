@@ -1,0 +1,7 @@
+-- Answer #1
+SELECT MAX(ORD_AMOUNT) FROM orders;
+-- Answer #2
+
+-- Answer #3
+SELECT AGENT_CODE,ORD_NUM FROM orders WHERE ORD_DATE >= '2008-07-01' 
+AND     ORD_DATE <= '2008-07-30';
